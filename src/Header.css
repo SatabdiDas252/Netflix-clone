@@ -1,0 +1,33 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    width:100%;
+    padding: 20px;
+    z-index:999;
+    transition-timing-function: ease-in;
+    transition:all 0.5s;
+    object-fit: contain;
+    margin-left: auto;
+
+}
+.header__logo{
+    object-fit:contain;
+    width:100px;
+    left:20px;
+    position:fixed;
+
+}
+.header__userIcon{
+ object-fit:contain;
+    width:50px;
+   position:fixed;
+    right:20px;
+    
+    
+}
+.header__black{
+    background-color: #111;
+    height:15px;
+}
